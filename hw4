@@ -1,0 +1,29 @@
+abc = int(input())
+a = abc // 100
+b = (abc % 100) // 10
+c = abc % 10
+print(a, b, b)
+print(b,b, c)
+print(c, a, b)
+print(c, c, c)
+print(a, c, b)
+print(b, a, c)
+
+x = int(input('введите целое положительное число'))
+print(x, 2*x, 3*x, 4*x, 5*x, sep='---')
+
+x = int(input('введите целое число'))
+print("следующее число", x+1)
+print("предыдущее число", x-1)
+
+x = input('введите имя')
+y = input ('введите фамилию')
+z = f"{y} {x}"
+print(z)
+
+x = int(input('введите число секунд'))
+d = x // 86400
+h = x // 3600
+m = x // 60
+s = x % 60
+print(d, h, m, s, sep=':')
